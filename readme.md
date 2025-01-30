@@ -30,9 +30,9 @@ After saving the changes, restart Cursor and observe the file:
 If you find that Cursor automatically reverts the data back to its original state (i.e., your fake data is lost), repeat step 3 and restart again.
 
 ### 🚀 Notes:
--Version: Tested on 0.44.11 (not verified for 0.45.x).
--Environment: Windows 11.
--Account Status: Make sure you're logged into your Cursor account while performing the steps (this hasn't been verified, and it might work without logging in).
+-Version: Tested on 0.44.11 (not verified for 0.45.x).\n
+-Environment: Windows 11.\n
+-Account Status: Make sure you're logged into your Cursor account while performing the steps (this hasn't been verified, and it might work without logging in).\n
 
 
 ## 中文版
@@ -65,8 +65,8 @@ If you find that Cursor automatically reverts the data back to its original stat
 如果发现Cursor自动回滚到原始数据（即你更改的伪造数据丢失），请重复步骤3并重新启动。
 
 ### 🚀注意事项：
--版本：我测试的是0.44.11版本，未验证0.45.x版本。
--操作环境：Windows 11。
+-版本：我测试的是0.44.11版本，未验证0.45.x版本。\n
+-操作环境：Windows 11。 \n
 -账号状态：操作时全程登录着Cursor账号（未验证，也许不登陆也行）。
 
 
