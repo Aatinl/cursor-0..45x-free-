@@ -1,5 +1,40 @@
 # Cursor 0.45.x 失效方案 (Fix for Cursor 0.45.x Issue)
 
+## English Version
+
+### 0. Downgrade to 0.44.11
+If you're experiencing issues with Cursor 0.45.x, consider downgrading to version 0.44.11.
+
+### 1. Open `storage.json`
+First, open the file:  
+`%APPDATA%\Cursor\User\globalStorage\storage.json`  
+Note: `%APPDATA%` is a system environment variable in Windows, ensure the path is correct.
+
+### 2. Fake JSON Data
+Use another AI (e.g., DeepSeek) to generate fake JSON data:  
+```json
+{
+  "telemetry.macMachineId": "***", 
+  "telemetry.sqmId": "{***}", 
+  "telemetry.machineId": "***", 
+  "telemetry.devDeviceId": "***"
+}
+```
+
+### 3. Modify and Paste the Data
+While Cursor is running, manually copy and paste the generated JSON data into the file and press ctrl+s to save changes.
+If the file is read-only, change its properties to allow editing and then save the changes.
+
+### 4. Restart Cursor
+After saving the changes, restart Cursor and observe the file:
+If you find that Cursor automatically reverts the data back to its original state (i.e., your fake data is lost), repeat step 3 and restart again.
+
+### 🚀 Notes:
+-Version: Tested on 0.44.11 (not verified for 0.45.x).
+-Environment: Windows 11.
+-Account Status: Make sure you're logged into your Cursor account while performing the steps (this hasn't been verified, and it might work without logging in).
+
+
 ## 中文版
 
 ### 0.降级到0.44.11
@@ -34,38 +69,4 @@
 -操作环境：Windows 11。
 -账号状态：操作时全程登录着Cursor账号（未验证，也许不登陆也行）。
 
-
-## English Version
-
-### 0. Downgrade to 0.44.11
-If you're experiencing issues with Cursor 0.45.x, consider downgrading to version 0.44.11.
-
-### 1. Open `storage.json`
-First, open the file:  
-`%APPDATA%\Cursor\User\globalStorage\storage.json`  
-Note: `%APPDATA%` is a system environment variable in Windows, ensure the path is correct.
-
-### 2. Fake JSON Data
-Use another AI (e.g., DeepSeek) to generate fake JSON data:  
-```json
-{
-  "telemetry.macMachineId": "***", 
-  "telemetry.sqmId": "{***}", 
-  "telemetry.machineId": "***", 
-  "telemetry.devDeviceId": "***"
-}
-```
-
-### 3. Modify and Paste the Data
-While Cursor is running, manually copy and paste the generated JSON data into the file and press ctrl+s to save changes.
-If the file is read-only, change its properties to allow editing and then save the changes.
-
-### 4. Restart Cursor
-After saving the changes, restart Cursor and observe the file:
-If you find that Cursor automatically reverts the data back to its original state (i.e., your fake data is lost), repeat step 3 and restart again.
-
-### 🚀 Notes:
--Version: Tested on 0.44.11 (not verified for 0.45.x).
--Environment: Windows 11.
--Account Status: Make sure you're logged into your Cursor account while performing the steps (this hasn't been verified, and it might work without logging in).
 
