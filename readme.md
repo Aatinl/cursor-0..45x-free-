@@ -4,6 +4,8 @@
 
 ### 0. Downgrade to 0.44.11
 If you're experiencing issues with Cursor 0.45.x, consider downgrading to version 0.44.11.
+**Download Cursor v0.44.11**
+- [Download from Cursor Official](https://downloader.cursor.sh/builds/250103fqxdt5u9z/windows/nsis/x64)
 
 ### 1. Open `storage.json`
 First, open the file:  
@@ -38,7 +40,8 @@ If you find that Cursor automatically reverts the data back to its original stat
 ## 中文版
 
 ### 0.降级到0.44.11
-
+**v0.44.11下载地址：**
+- [官网下载](https://downloader.cursor.sh/builds/250103fqxdt5u9z/windows/nsis/x64)
 
 ### 1. 打开Storage.json
 首先，打开文件：  
