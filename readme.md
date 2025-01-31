@@ -1,7 +1,8 @@
 # Cursor 0.45.x 失效方案 (Fix for Cursor 0.45.x Issue)
+*关键核心：在修改 storage.json 时保持 Cursor 打开，而不是关闭后修改*
+*Key point: Keep the Cursor open when modifying storage.json instead of closing it before making changes*
 
 ## English Version
-
 ### 0. Downgrade to 0.44.11
 If you're experiencing issues with Cursor 0.45.x, consider downgrading to version 0.44.11.
 **Download Cursor v0.44.11**
