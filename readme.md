@@ -1,7 +1,7 @@
 # Cursor 0.45.x 失效方案 (Fix for Cursor 0.45.x Issue)
-## 下载 fc.py,使用`python fc.py`运行脚本
-
-## run `python fc.py`
+## Solution 解决方案
+* 下载 fc.py,使用`python fc.py`运行脚本
+* run `python fc.py`
 
 * 关键核心：在修改 `storage.json` 时保持 Cursor 打开，而不是关闭后修改
 * Key point: Keep the Cursor open when modifying `storage.json` instead of closing it before making changes
