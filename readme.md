@@ -31,3 +31,11 @@ If you're experiencing issues with Cursor 0.45.x, consider downgrading to versio
 - 操作环境：Windows 11
 - 账号状态：操作时全程登录着Cursor账号（未验证，也许不登陆也行）。
 
+
+![PixPin_2025-02-02_18-42-10](https://github.com/user-attachments/assets/0de08436-8afa-4a3b-8fe7-5f5b7ae930c9)
+![PixPin_2025-02-02_18-44-59](https://github.com/user-attachments/assets/386aa0dd-c1ce-4481-b3b0-4ecc492b31ef)
+![PixPin_2025-02-02_18-44-13](https://github.com/user-attachments/assets/54226245-9f5e-41cb-ae3a-42e6026e7545)
+![PixPin_2025-02-02_18-43-40](https://github.com/user-attachments/assets/3a619b95-48c8-4ca0-aacf-24b64f7b98d7)
+![PixPin_2025-02-02_18-43-27](https://github.com/user-attachments/assets/35a200f5-09a8-4a08-adca-592174ee3127)
+![PixPin_2025-02-02_18-42-57](https://github.com/user-attachments/assets/0da4e122-c584-4c0e-9c47-1a71b03b76c2)
+![PixPin_2025-02-02_18-42-24](https://github.com/user-attachments/assets/1373c3c9-c9d1-4598-baa7-c1d69dc3820e)
