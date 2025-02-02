@@ -14,7 +14,7 @@ If you're experiencing issues with Cursor 0.45.x, consider downgrading to versio
 
 ### 🚀 Notes:
 - Version:0.44.11 (not 0.45.x).
-- Environment: Windows 11.\n
+- Environment: Windows 11
 - Account Status: Make sure you're logged into your Cursor account while performing the steps (this hasn't been verified, and it might work without logging in).\n
 
 
@@ -28,6 +28,6 @@ If you're experiencing issues with Cursor 0.45.x, consider downgrading to versio
 
 ### 🚀注意事项：
 - 版本：0.44.11版本，0.45.x版本无效。
-- 操作环境：Windows 11。 
+- 操作环境：Windows 11
 - 账号状态：操作时全程登录着Cursor账号（未验证，也许不登陆也行）。
 
