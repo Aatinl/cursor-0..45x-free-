@@ -33,6 +33,7 @@ If you're experiencing issues with Cursor 0.45.x, consider downgrading to versio
 
 ## 婴儿版教程
 * **确保cursor正在运行**
+
 ![PixPin_2025-02-02_18-42-10](https://github.com/user-attachments/assets/6ad28092-a69e-4c6d-a1a5-65a088ab7cd8)
 ![PixPin_2025-02-02_18-42-24](https://github.com/user-attachments/assets/9f148f77-3386-4989-b241-5bd2d6623425)
 ![PixPin_2025-02-02_18-42-57](https://github.com/user-attachments/assets/089d42cf-069c-4df7-a0cc-6ddb9df5366a)
