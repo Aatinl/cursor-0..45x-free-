@@ -6,7 +6,7 @@ import locale
 import shutil
 from pathlib import Path
 from datetime import datetime
-
+import random
 # 获取系统语言
 def get_system_language():
     """
@@ -81,7 +81,10 @@ def backup_file(source_path):
     backup file
     """
     try:
+        # 创建备份文件名
         backup_path = source_path.parent / 'storage备份.json'
+        
+        # 复制文件
         shutil.copy2(source_path, backup_path)
         return backup_path
     except Exception as e:
@@ -106,6 +109,7 @@ def lock_storage_file():
     storage_path = Path(appdata) / 'Cursor' / 'User' / 'globalStorage' / 'storage.json'
     
     try:
+        # 先备份文件
         backup_path = backup_file(storage_path)
         if backup_path:
             print(MESSAGES[lang]['backup_success'].format(backup_path))
@@ -115,12 +119,11 @@ def lock_storage_file():
             
         with open(storage_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            
-        # clear data
-        data['telemetry.macMachineId'] = ''
-        data['telemetry.sqmId'] = '{}'
-        data['telemetry.machineId'] = ''
-        data['telemetry.devDeviceId'] = ''
+
+        data['telemetry.macMachineId'] = ''.join(random.choices('0123456789ABCDEF', k=12))
+        data['telemetry.sqmId'] = json.dumps({'id': ''.join(random.choices('0123456789abcdef', k=32))})
+        data['telemetry.machineId'] = ''.join(random.choices('0123456789abcdef-', k=36)) 
+        data['telemetry.devDeviceId'] = ''.join(random.choices('0123456789ABCDEF', k=16))
         
         # write modified data
         with open(storage_path, 'w', encoding='utf-8') as f:
